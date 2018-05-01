@@ -21,7 +21,7 @@ echo -e $yellow"\ \ \         __  \//\ \ \//\ \      __   _ __   ____"
 echo -e $white"  \ \ \  __  /'__`\  \ \ \  \ \ \   /'__`\/\`'__\/',__\" 
 echo -e $white"   \ \ \L\ \/\ \L\.\_ \_\ \_ \_\ \_/\  __/\ \ \//\__, `\"
 echo -e $white"    \ \____/\ \__/.\_\/\____\/\____\ \____\\ \_\\/\____/"
-echo -e "black"     \/___/  \/__/\/_/\/____/\/____/\/____/ \/_/ \/___/"
+echo -e $black"     \/___/  \/__/\/_/\/____/\/____/\/____/ \/_/ \/___/"
                                                     
 
 
@@ -241,8 +241,10 @@ cd ~/
 echo -e $green"Selesai"
 fi
 
-if [ $act = 14 ] || [ $act = 14 ]                                  then
-clear                                                              echo -e $cyan"Installing Bot Deface..."
+if [ $act = 14 ] || [ $act = 14 ]                                  
+then
+clear                                                              
+echo -e $cyan"Installing Bot Deface..."
 sleep 1
 apt update && apt upgrade -y
 apt install git
@@ -321,7 +323,7 @@ apt install python2
 gem install lolcat
 apt install figlet
 apt install git
-pip2 insyall mechanize
+pip2 install mechanize
 git clone https://github.com/viruz09/CreaterVirus.git
 echo -e $red"loading......"
 sleep 1
