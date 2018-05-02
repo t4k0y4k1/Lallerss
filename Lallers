@@ -55,7 +55,7 @@ if [ $act = 01 ] || [ $act = 01 ]
 then
 clear
 echo -e $yellow" Installing Nmap"
-s/leep 1
+sleep 1
 apt update && apt upgrade
 apt install nmap
 nmap -help
@@ -353,5 +353,4 @@ sleep 1
 echo -e $yellow"https://facebook.com/dhnl28"
 sleep 1
 exit
-echo -e $yellow"Thanks Mastah"
 fi
